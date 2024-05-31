@@ -69,7 +69,7 @@ flutter run
 
 Optionally, There is a Test file in the test folder that you can run to test the AutoTimerService class. The Test May not work as expected or even may fail.
 
-**Note**: This project is tested on iOS devices and simulators. It may not work as expected on Android devices.
+**Note**: This project is tested on iOS devices. It may not work as expected on Android devices.
 
 Configuration
 You can adjust the following settings in the AutoTimerService class:
@@ -77,6 +77,8 @@ You can adjust the following settings in the AutoTimerService class:
 - `startThreshold`: The noise level threshold for detecting the start of an espresso shot.
 - `endThreshold`: The noise level threshold for detecting the end of an espresso shot.
 - `sequenceLength`: the length of the sequence of noise levels used to determine the start and end of an espresso shot. This value defines how many consecutive noise readings are considered to detect a shot.
+
+Please note that these settings may need to be adjusted based on the noise levels of your espresso machine and environment.
 
 ## Dependencies
 
