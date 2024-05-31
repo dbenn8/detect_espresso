@@ -4,7 +4,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'permission_service.g.dart';
 
 @riverpod
-PermissionServiceImpl permissionService(PermissionServiceRef ref) =>
+PermissionService permissionService(PermissionServiceRef ref) =>
     PermissionServiceImpl();
 
 abstract class PermissionService {

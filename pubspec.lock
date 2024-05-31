@@ -25,6 +25,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.11.3"
+  archive:
+    dependency: transitive
+    description:
+      name: archive
+      sha256: "6bd38d335f0954f5fad9c79e614604fbf03a0e5b975923dd001b6ea965ef5b4b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.6.0"
   args:
     dependency: transitive
     description:
@@ -49,6 +57,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.1"
+  avatar_glow:
+    dependency: "direct main"
+    description:
+      name: avatar_glow
+      sha256: "848d9a85065e398241d8ffae0dcc50902980c24490aef21fd4c6b6342d4c26b4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.1"
   boolean_selector:
     dependency: transitive
     description:
@@ -288,8 +304,16 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  freezed:
+    dependency: "direct dev"
+    description:
+      name: freezed
+      sha256: a434911f643466d78462625df76fd9eb13e57348ff43fe1f77bbe909522c67a1
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.5.2"
   freezed_annotation:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: freezed_annotation
       sha256: c3fd9336eb55a38cc1bbd79ab17573113a8deccd0ecbbf926cca3c62803b5c2d
@@ -328,6 +352,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.2.0"
+  http:
+    dependency: transitive
+    description:
+      name: http
+      sha256: "761a297c042deedc1ffbb156d6e2af13886bb305c2a343a4d972504cd67dd938"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.1"
   http_multi_server:
     dependency: transitive
     description:
@@ -416,6 +448,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  lottie:
+    dependency: "direct main"
+    description:
+      name: lottie
+      sha256: "6a24ade5d3d918c306bb1c21a6b9a04aab0489d51a2582522eea820b4093b62b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.2"
   matcher:
     dependency: transitive
     description:
@@ -448,6 +488,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
+  mockito:
+    dependency: "direct dev"
+    description:
+      name: mockito
+      sha256: "6841eed20a7befac0ce07df8116c8b8233ed1f4486a7647c7fc5a02ae6163917"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.4.4"
   noise_meter:
     dependency: "direct main"
     description:
