@@ -24,8 +24,6 @@ AutoTimerService autoTimerService(AutoTimerServiceRef ref) {
 ///
 ///
 class AutoTimerService {
-  bool _isRecording = false;
-
   /// The subscription to the noise meter readings.
   /// This is used to cancel the subscription when the timer is stopped.
   /// This is also used to listen to the noise meter readings.
@@ -68,13 +66,11 @@ class AutoTimerService {
           _onData(noiseReading, onFirstShotDetected, onEndShotDetected),
       onError: _onError,
     );
-    _isRecording = true;
   }
 
   /// Stops listening to the noise meter readings and cancels any active subscriptions.
   Future<void> stopListening() async {
     await _noiseSubscription?.cancel();
-    _isRecording = false;
   }
 
   void _onData(NoiseReading noiseReading, VoidCallback onFirstShotDetected,
