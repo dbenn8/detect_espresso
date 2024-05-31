@@ -6,8 +6,6 @@ Detect Espresso is a Flutter application that uses noise meter functionality to 
 
 - **Live Shot Detection**: Detects the start and end of an espresso shot based on noise levels.
 - **Real-time Monitoring**: Continuously monitors noise levels to detect espresso machine sounds.
-- **Event Logging**: Logs events such as the start and end of shots along with their durations.
-- **Settings Interface**: Allows users to adjust thresholds and sequence length for detection.
 
 ## Findings
 
